@@ -11,4 +11,4 @@ view.frame = CGRectMake(50, 200, 200, 300);
 ```
 
 **ScreenShot**
-![](http://ww3.sinaimg.cn/large/006tNc79gy1g39a0ffdouj30q81g0wen.jpg =300x150)
+![](http://ww3.sinaimg.cn/large/006tNc79gy1g39a0ffdouj30q81g0wen.jpg)
