@@ -13,6 +13,7 @@
 		79DC34552294373D0017395E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79DC34542294373D0017395E /* Assets.xcassets */; };
 		79DC34582294373D0017395E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79DC34562294373D0017395E /* LaunchScreen.storyboard */; };
 		79DC345B2294373D0017395E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DC345A2294373D0017395E /* main.m */; };
+		79DC3464229437670017395E /* UIView+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DC3463229437670017395E /* UIView+RoundedCorner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		79DC34572294373D0017395E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79DC34592294373D0017395E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79DC345A2294373D0017395E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79DC3462229437670017395E /* UIView+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RoundedCorner.h"; sourceTree = "<group>"; };
+		79DC3463229437670017395E /* UIView+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RoundedCorner.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		79DC344A2294373D0017395E /* UIViewRoundedCornerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				79DC34612294374A0017395E /* Categories */,
 				79DC344B2294373D0017395E /* AppDelegate.h */,
 				79DC344C2294373D0017395E /* AppDelegate.m */,
 				79DC344E2294373D0017395E /* ViewController.h */,
@@ -69,6 +73,15 @@
 				79DC345A2294373D0017395E /* main.m */,
 			);
 			path = UIViewRoundedCornerDemo;
+			sourceTree = "<group>";
+		};
+		79DC34612294374A0017395E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				79DC3462229437670017395E /* UIView+RoundedCorner.h */,
+				79DC3463229437670017395E /* UIView+RoundedCorner.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +157,7 @@
 				79DC34502294373D0017395E /* ViewController.m in Sources */,
 				79DC345B2294373D0017395E /* main.m in Sources */,
 				79DC344D2294373D0017395E /* AppDelegate.m in Sources */,
+				79DC3464229437670017395E /* UIView+RoundedCorner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

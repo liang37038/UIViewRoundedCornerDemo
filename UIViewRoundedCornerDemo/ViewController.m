@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIView+RoundedCorner.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    UIView *view = [[UIView alloc]init];
+    view.frame = CGRectMake(50, 200, 200, 300);
+    [view addRoundedCorner:10 borderWidth:0 borderColor:[UIColor whiteColor] backgroundColor:[UIColor redColor]];
+    
+    [self.view addSubview:view];
 }
 
 
